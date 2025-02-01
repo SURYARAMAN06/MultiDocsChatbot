@@ -28,38 +28,6 @@ Follow these steps to install and run the project locally.
 Prerequisites
 Python 3.8 or above
 Virtual environment (optional but recommended)
-1. Clone the repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/multi-docs-chatbot.git
-cd multi-docs-chatbot
-2. Set up a virtual environment
-bash
-Copy
-Edit
-python -m venv env
-source env/bin/activate   # On Windows: env\Scripts\activate
-3. Install the dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-4. Set up the environment variables
-Create a .env file in the root directory and add the following environment variable:
-
-ini
-Copy
-Edit
-GROQ_API_KEY=your_groq_api_key
-Replace your_groq_api_key with your actual Groq API key.
-
-5. Run the Streamlit application
-bash
-Copy
-Edit
-streamlit run app.py
-Open your browser and go to the URL provided by Streamlit (usually http://localhost:8501).
 
 Usage
 Upload Files: Use the sidebar to upload multiple document files (PDF, DOCX, TXT).
