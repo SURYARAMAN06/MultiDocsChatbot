@@ -1,16 +1,7 @@
 # MultiDocsChatbot
 A Streamlit-based chatbot application that enables users to upload multiple document types (PDF, DOCX, TXT) and interact with them via natural language queries. The chatbot leverages the LangChain framework for conversation management, FAISS for efficient document search, and the ChatGroq model for generating intelligent responses.
 
-Table of Contents
-Features
-Tech Stack
-Installation
-Usage
-How It Works
-Environment Variables
-Contributing
-License
-Features
+
 Document Upload: Upload multiple files such as PDFs, DOCX, and TXT.
 Natural Language Querying: Interact with documents using natural language queries.
 Conversational AI: Utilizes the ChatGroq model to provide intelligent and relevant responses.
